@@ -9,12 +9,11 @@ on:
 
 permissions:
   contents: read
-  pages: read
-  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     permissions:
       contents: read
       pages: write
